@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+    margin: 0;
+}
+
+hr{
+    position: relative;
+    width: 40%;
+    border-top: 5px dotted;
+    border-bottom: none;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+h3{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-top: .8rem;
+}
+
+.header{
+    background-color: #7c9473;
+    padding-bottom: .6rem;
+}
+
+.h1header{
+    display: inline-block;
+    margin: auto;
+    left: 3rem;
+    padding-top: 4px;
+    color:snow;
+}
+
+.header div{
+    float: right;
+}
+
+.header div ul{
+    list-style: none;
+}
+
+.header div ul li{
+    display: inline;
+    flex-wrap: wrap;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.5;
+}
+
+.section2{
+    background-color: #cfdac8;
+    position:relative;
+    padding-top: 1.5rem;
+    height: 28.1rem;
+    text-align: center;
+
+}
+
+.foto{
+    position:relative;
+    z-index: 1;
+    width: 20%;
+    height: auto;
+}
+
+.titleh3{
+    bottom: 28.1rem;
+    left: 28.1rem;
+    font-size: 1.9rem;
+    margin: 1.8rem 0 1.8rem 2.8rem;
+}
+
+.firstproject{
+    top: 15.6rem;
+    background-color: #e8eae6;
+    height: 38.7rem;
+    text-align: center; 
+    padding-right: 0;
+}
+
+.project1{
+    position:relative;
+    z-index: 1;
+    width: 60%;
+    height: auto; 
+    border-radius: 3.1rem;
+}
+
+.workprojects{
+    background-color: #cdd0cb;
+}
+
+.h3projects{
+    position: relative;
+    text-align: center;
+}
+
+.projectcontainer{
+    flex-wrap: wrap;
+    height: 18.7rem;
+}
+
+.mywebpage{
+    position: relative;
+    width: 27%;
+    height: auto;
+    top: 50px;
+    margin: 0 50px;
+    border-radius: 50px;
+}
+
+.workprogress{
+    position: relative;
+    width: 25%;
+    height: auto;
+    top: 3.1rem;
+    margin: 0 3.1rem;
+    border-radius: 3.1rem;
+}
+
+.skillsSection{
+    background-color: #e8eae6;
+    padding-bottom: 40px;
+}
+
+.skill{
+    width: 35%;
+    float: left;
+    margin-right: 1.8rem;
+    border-radius: 3.1rem;
+}
+
+.skill-row{
+    width:50%;
+    margin:1.5rem auto 0 auto;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 3.1rem;
+  }
+
+  .research{
+    margin-top: 2.5rem;
+    width: 35%;
+    float: left;
+    margin-right: 1.8rem;
+    border-radius: 3.1rem;
+  }
+
+  .footer{
+      text-align: center;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Garamond;
+    font-size: 40px;
+    font-weight: 200;
+    padding: 15px;
+    background-color: #66BFBF;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .btn:hover {
+    background: #1E62D0;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .footer{
+     background-color: #7c9473;
+     padding-bottom: 15px;
+ }
+
+ @media screen and (max-width: 768px){
+    hr{
+        width: 40%;
+        margin: auto;
+    } 
+
+    .header{
+         padding-bottom: 50px;
+    }
+
+    .header div ul li{
+        flex-direction:row;
+        margin-right: 60px;
+    }
+
+    .section2{
+        height: 290px;
+    }
+
+    .firstproject{
+        height: 370px;
+        margin: auto;
+    }
+
+    .workprogress{
+        margin-top: 15px;
+        flex-direction: row;
+    }
+
+    section h3{
+        margin-bottom: 0;
+    }
+}
