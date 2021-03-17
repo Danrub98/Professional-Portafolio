@@ -220,17 +220,15 @@ h4{
     }
 
     .header div ul li{
-        /*display: flex;
-        margin-right: 60px;
-        justify-content: center;
-        align-items: center;*/
+        display: flex;
+        justify-content:space-around;
     }
 
     .header div ul{
         display: flex;
-        /*margin-right: 60px;*/
-        justify-content: center;
-        align-items: center; 
+        flex-direction:column;
+        justify-content: space-evenly;
+       
     }
 
     .section2{
