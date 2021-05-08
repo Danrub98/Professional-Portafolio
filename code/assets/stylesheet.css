@@ -37,6 +37,17 @@ h4{
     margin-top: .8rem;
 }
 
+.githubLink{
+    margin-top: 1rem;
+    font-size: 50px;
+    color: black;
+    display: inline-block;
+    border:solid .1rem ;
+    background-color: #7c9473;
+}
+
+
+
 .header{
     background-color: #7c9473;
     padding-bottom: .6rem;
@@ -78,7 +89,6 @@ h4{
 }
 
 .foto{
-    position:relative;
     z-index: 1;
     width: 20%;
     height: auto;
@@ -104,7 +114,7 @@ h4{
     /*z-index: 1;*/
     width: 60%;
     height: auto; 
-    border-radius: 3.1rem;
+    border-radius: 1.1rem;
 }
 
 .workprojects{
@@ -144,10 +154,11 @@ h4{
 
 .skillsSection{
     background-color: #e8eae6;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
 
 .skill{
+    margin-top: 2rem;
     width: 35%;
     float: left;
     margin-right: 1.8rem;
@@ -163,7 +174,7 @@ h4{
   }
 
   .research{
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     width: 35%;
     float: left;
     margin-right: 1.8rem;
@@ -231,8 +242,22 @@ h4{
        
     }
 
+    .foto{
+        width: 30%;
+        position: none;
+    }
+
     .section2{
         height: 290px;
+    }
+
+    .githubLink{
+        margin-top: 1rem;
+        font-size: 25px;
+        color: black;
+        display: inline-block;
+        border:solid .1rem ;
+        background-color: #7c9473;
     }
 
     .firstproject{
@@ -253,7 +278,7 @@ h4{
     .workprojects{
         margin-top: 15px;
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         padding-bottom: 10px;
     }
 
