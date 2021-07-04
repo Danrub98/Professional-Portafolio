@@ -38,8 +38,13 @@ h4{
 }
 
 .githubLink{
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
     margin-top: 1rem;
-    font-size: 50px;
+    font-size: 30px;
     color: black;
     display: inline-block;
     border:solid .1rem ;
@@ -121,6 +126,7 @@ h4{
     background-color: #cdd0cb;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .h3projects{
@@ -252,6 +258,7 @@ h4{
     }
 
     .githubLink{
+        justify-content: center;
         margin-top: 1rem;
         font-size: 25px;
         color: black;
